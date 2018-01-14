@@ -1,0 +1,18 @@
+create table Person (
+  id bigint primary key auto_increment, 
+  name varchar(50) not null, 
+  age int not null, 
+  wage real not null, 
+  active boolean not null
+); 
+
+insert into Person (name, age, wage, active) VALUES 
+("foo", 10, 100.0, true), 
+("bar", 20, 200.0, false), 
+("bim", 30, 300.0, true), 
+("pako", 40, 400.0, false), 
+("messi", 50, 500.0, true), 
+("neymar", 60, 600.0, true), 
+("henry", 70, 700.0, false), 
+("deko", 80, 800.0, false); 
+
